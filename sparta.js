@@ -1,7 +1,6 @@
 window.addEventListener('DOMContentLoaded', function()
 {
-    let current_url = window.location.href;
-    // if (!current_url.includes('github')) return;
+    if (!window.location.href.includes('github')) return;
 
     const body = document.querySelector('body');
     
